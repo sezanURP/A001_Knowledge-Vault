@@ -13,8 +13,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain,auto;
     width: 100%;
-    /* max-width: 1600px;
-    height: 600px; */
+   
     
     
 }
@@ -68,7 +67,7 @@ header {
    
   background-size: 100% ;
   width: 100%;
-    height: 750px;
+    height: 1000px;
 
 }
 .hero-container .early-access:hover {
@@ -85,7 +84,7 @@ header {
     color: #469165;
     padding: 8px 12px;
     cursor: pointer;
-    margin: 207px 650px 0 685px;
+    margin: 207px 650px 0 650px;
     font-size: 16px;
     font-weight: 400;
     
@@ -163,7 +162,7 @@ header {
 
 #problem {
     background-color: #ffffff;
-    padding: 60px 20px;
+    padding: 20px 20px;
     text-align: center;
     margin: 0;
 }
@@ -172,7 +171,7 @@ header {
     /* text-align: center; */
     font-size: 48px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #problem .heading p {
     font-size: 16px;
