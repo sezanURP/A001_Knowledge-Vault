@@ -54,7 +54,14 @@ nav button {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+   
+
 }
+nav button:hover {
+      transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+
 header {
     background: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -106,7 +113,7 @@ header {
 .heading-information {
     text-align: center;
     margin: 15px 600px 0 600px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 200;
     color: #ffffff;
     line-height: 1.2;
@@ -155,7 +162,7 @@ header {
 }
 
 #problem {
-    background-color: #FFF8F3;
+    background-color: #ffffff;
     padding: 60px 20px;
     text-align: center;
     margin: 0;
@@ -178,7 +185,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
+    margin: 60px 150px 0px 150px;
+    
    
 }
 #problem .icon{
@@ -192,8 +200,9 @@ header {
   gap: 30px;
     
     background-color:#FFF8F3;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+
    
 }
 #problem .problem-card .problem-card-1 h2, .problem-card-2 h2, .problem-card-3 h2, .problem-card-4 h2 {
@@ -213,8 +222,47 @@ header {
     gap: 50px;
     margin-top: 80px;
     margin-bottom: 100px;
+    
+
 }
 
+
+#challenge {
+    background-color: #fff8f3cd;
+    padding: 80px 20px;
+    text-align: center;
+    margin: 0 120px 120px 120px ;
+    border-radius: 10px;
+}
+
+#challenge .challenge-container {
+    max-width: 800px;
+    margin:  0 auto;
+   
+    
+
+    /* margin: 0 120px 120px 120px ; */
+}
+#challenge .challenge-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+#challenge .challenge-container button {
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border-radius: 8px;
+}
+
+#challenge .challenge-container p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #627382;
+}
 
 
 footer {
